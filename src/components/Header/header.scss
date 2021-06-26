@@ -7,4 +7,24 @@
     position: fixed;
     top: 0;
     z-index: 2;
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    .logo a{
+        display: inline-block;
+        text-align: center;
+        line-height: 36px;
+        height: 40px;
+        width: 40px;
+        font-size: 24px;
+        color: $logo;
+        border-radius: 50%;
+        border: 2px solid $logo;
+        text-transform: capitalize;
+    }
 }
